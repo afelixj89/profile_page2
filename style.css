@@ -1,0 +1,188 @@
+body{
+
+font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+#container{
+
+        display: flex;
+        justify-content: center;
+}
+
+
+
+
+.user_card{
+
+    width: 500px;
+    height: 330px;
+    border-radius: 2px;
+    border-style: outset;
+    border-color: rgb(236, 226, 226);
+    background-image: linear-gradient(to bottom, rgb(21, 63, 63),  rgb(21, 63, 63) 25%, white 20%, white);
+    margin: 20px;
+    
+} 
+
+.gear{
+
+    width: 10px;
+}
+    
+    
+.profile_pic{
+        width: 100px;
+        margin-top: 20px; 
+        border-radius: 50px;
+}
+    
+h1,p,.gear,.profile_pic {
+        margin-left: 20px;
+    
+}
+    
+.user_card > .gear{
+        width: 20px; 
+} 
+
+/* nav css below  */
+
+
+.btn{
+
+    background-color: rgb(81, 189, 189);
+    box-shadow: 2px 1px black;
+    color: white;
+    width: 70px;
+    height: 25px;
+      
+}
+
+
+.nav{
+       
+        background-color: rgb(44, 44, 44);
+        border-color: white;
+        border-style: double;
+        height:  80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;                   
+} 
+    
+.nav-links{
+        color: white;
+        margin-right: 50px;
+    }
+            
+
+    
+    
+    
+.nav-title{
+        color: white;
+        margin-left: 50px;       
+}
+    
+.links {color: white;
+        padding: 5px;   
+}
+
+/* connections + education css */
+
+
+
+
+
+.education{
+
+        width: 500px;
+        height: 175px;
+        border-radius: 2px;
+        border-style: outset;
+        border-color: rgb(236, 226, 226);
+        background-image: linear-gradient(to bottom, rgb(57, 58, 58),  rgb(55, 56, 56) 25%, white 20%, white);
+        margin: 20px;
+        
+
+
+
+
+}
+
+#grey{
+        color: grey;
+}
+
+
+.title{
+
+        color: white;
+
+        
+}
+
+#school{
+
+        font-size: large;
+        font-weight: 600;
+}
+
+.connection_request{
+
+        width: 250px;
+        height: 175px;
+        border-radius: 2px;
+        border-style: outset;
+        border-color: rgb(236, 226, 226);
+        background-image: linear-gradient(to bottom, rgb(57, 58, 58),  rgb(55, 56, 56) 25%, white 20%, white);
+        margin: 20px;
+        
+}
+
+span{
+
+        background-color: lightgrey;
+        color: rgb(73, 70, 70);
+        border-radius:250%;
+}
+
+
+.icon{
+
+        border-radius: 50px;
+        width: 35px;
+        
+        
+}
+
+.connections{
+
+        width: 250px;
+        height: 275px;
+        border-radius: 2px;
+        border-style: outset;
+        border-color: rgb(236, 226, 226);
+        background-image: linear-gradient(to bottom, rgb(57, 58, 58),  rgb(55, 56, 56) 15%, white 15%, white);
+        margin-left: 20px;
+        
+        
+}
+
+.more{
+        width: 250px;
+        height: 20px;
+        border-radius: 2px;
+        border-style: outset;
+        margin-left: 0px;
+        margin-top: 20px;
+       
+        
+
+}
+
+
+
+ 
