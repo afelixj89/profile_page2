@@ -99,11 +99,10 @@ h1,p,.gear,.profile_pic {
 .education{
 
         width: 500px;
-        height: 175px;
         border-radius: 2px;
         border-style: outset;
         border-color: rgb(236, 226, 226);
-        background-image: linear-gradient(to bottom, rgb(57, 58, 58),  rgb(55, 56, 56) 25%, white 20%, white);
+        background-image: linear-gradient(to bottom, rgb(134, 161, 161),  rgb(55, 56, 56) 25%, white 80%, white);
         margin: 20px;
         
 
