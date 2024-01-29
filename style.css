@@ -15,9 +15,7 @@ font-family: 'Courier New', Courier, monospace;
 
 
 .user_card{
-
     width: 500px;
-    height: 330px;
     border-radius: 2px;
     border-style: outset;
     border-color: rgb(236, 226, 226);
@@ -26,7 +24,7 @@ font-family: 'Courier New', Courier, monospace;
     
 } 
 
-.gear{
+.mapIcon{
 
     width: 10px;
 }
@@ -38,7 +36,7 @@ font-family: 'Courier New', Courier, monospace;
         border-radius: 50px;
 }
     
-h1,p,.gear,.profile_pic {
+h1,p,.mapIcon,.profile_pic {
         margin-left: 20px;
     
 }
@@ -102,8 +100,7 @@ h1,p,.gear,.profile_pic {
         border-radius: 2px;
         border-style: outset;
         border-color: rgb(236, 226, 226);
-        background-image: linear-gradient(to bottom, rgb(134, 161, 161),  rgb(55, 56, 56) 25%, white 80%, white);
-        margin: 20px;
+        background-image: linear-gradient(to bottom, rgb(21, 63, 63),  rgb(21, 63, 63) 25%, white 20%, white);        margin: 20px;
         
 
 
@@ -119,6 +116,10 @@ h1,p,.gear,.profile_pic {
 .title{
 
         color: white;
+        padding-bottom: 20px;
+        display: flex;
+        font-size: 20px;
+        
 
         
 }
@@ -129,17 +130,6 @@ h1,p,.gear,.profile_pic {
         font-weight: 600;
 }
 
-.connection_request{
-
-        width: 250px;
-        height: 175px;
-        border-radius: 2px;
-        border-style: outset;
-        border-color: rgb(236, 226, 226);
-        background-image: linear-gradient(to bottom, rgb(57, 58, 58),  rgb(55, 56, 56) 25%, white 20%, white);
-        margin: 20px;
-        
-}
 
 span{
 
@@ -157,18 +147,7 @@ span{
         
 }
 
-.connections{
 
-        width: 250px;
-        height: 275px;
-        border-radius: 2px;
-        border-style: outset;
-        border-color: rgb(236, 226, 226);
-        background-image: linear-gradient(to bottom, rgb(57, 58, 58),  rgb(55, 56, 56) 15%, white 15%, white);
-        margin-left: 20px;
-        
-        
-}
 
 .more{
         width: 250px;
